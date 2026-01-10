@@ -29,7 +29,7 @@ Our rigorous evaluation establishes a realistic baseline for FCD detection, dist
 
 *Table: Comparative benchmarking. Note that "Test Dice (Strict)" is lower than typical literature values (e.g., 0.41-0.45) because we prevent data leakage and do not use post-processing.*
 
-## 🛠 Methodology
+## Methodology
 
 ### Pipeline Overview
 
@@ -52,7 +52,7 @@ Our rigorous evaluation establishes a realistic baseline for FCD detection, dist
 └── requirements.txt     # Python dependencies
 ```
 
-## 💻 Usage
+## Usage
 
 ### 1. Installation
 
@@ -72,7 +72,7 @@ The workflow is organized into sequential notebooks:
 2. **Training**: `notebooks/01_Train_Oversampling.ipynb`
 3. **Inference**: `notebooks/03_Inference.ipynb`
 
-## 🔗 Citation
+## Citation
 
 If you use this code or dataset split in your research, please cite our paper:
 
@@ -85,7 +85,7 @@ If you use this code or dataset split in your research, please cite our paper:
 }
 ```
 
-## 👥 Authors
+## Authors
 
 - **Yassien Tawfik**, Mazen Marwan, Mohamed Yasser, Nancy Mahmoud, Madonna Mosaad (Cairo University)
 - **Aya Khalaf** (Yale University)
