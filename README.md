@@ -179,19 +179,19 @@ If you use this code or dataset split in your research, please cite our paper:
         <sub>Cairo University</sub>
       </td>
       <td align="center">
-        <a href="https://github.com/madonna-mosaad" target="_blank">
-          <img src="https://avatars.githubusercontent.com/u/127048836?v=4" width="140px;" alt="Madonna Mosaad"/>
-          <br/>
-          <sub><b>Madonna Mosaad</b></sub>
-        </a>
-        <br/>
-        <sub>Cairo University</sub>
-      </td>
-      <td align="center">
         <a href="https://github.com/Mazenmarwan023" target="_blank">
           <img src="https://avatars.githubusercontent.com/u/127551364?v=4" width="140px;" alt="Mazen Marwan"/>
           <br/>
           <sub><b>Mazen Marwan</b></sub>
+        </a>
+        <br/>
+        <sub>Cairo University</sub>
+      </td>      
+      <td align="center">
+        <a href="https://github.com/madonna-mosaad" target="_blank">
+          <img src="https://avatars.githubusercontent.com/u/127048836?v=4" width="140px;" alt="Madonna Mosaad"/>
+          <br/>
+          <sub><b>Madonna Mosaad</b></sub>
         </a>
         <br/>
         <sub>Cairo University</sub>
