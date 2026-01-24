@@ -133,94 +133,101 @@ If you use this code or dataset split in your research, please cite our paper:
 ## Authors
 
 <div align="center">
-    <table>
-        <tr>
-            <td align="center">
-                <a href="https://github.com/YassienTawfikk" target="_blank">
-                    <img src="https://avatars.githubusercontent.com/u/126521373?v=4" width="150px;" alt="Yassien Tawfik"/>
-                    <br/>
-                    <sub><b>Yassien Tawfik</b></sub>
-                </a>
-                <br/>
-                <sub>Cairo University</sub>
-            </td>
-            <td align="center">
-                <a href="https://github.com/mohamedddyasserr" target="_blank">
-                    <img src="https://avatars.githubusercontent.com/u/126451832?v=4" width="150px;" alt="Mohamed Yasser"/>
-                    <br/>
-                    <sub><b>Mohamed Yasser</b></sub>
-                </a>
-                <br/>
-                <sub>Cairo University</sub>
-            </td>
-            <td align="center">
-                <a href="https://github.com/nancymahmoud1" target="_blank">
-                    <img src="https://avatars.githubusercontent.com/u/125357872?v=4" width="150px;" alt="Nancy Mahmoud"/>
-                    <br/>
-                    <sub><b>Nancy Mahmoud</b></sub>
-                </a>
-                <br/>
-                <sub>Cairo University</sub>
-            </td>
-            <td align="center">
-                <a href="https://github.com/madonna-mosaad" target="_blank">
-                    <img src="https://avatars.githubusercontent.com/u/127048836?v=4" width="150px;" alt="Madonna Mosaad"/>
-                    <br/>
-                    <sub><b>Madonna Mosaad</b></sub>
-                </a>
-                <br/>
-                <sub>Cairo University</sub>
-            </td>      
-            <td align="center">
-                <a href="https://github.com/Mazenmarwan023" target="_blank">
-                    <img src="https://avatars.githubusercontent.com/u/127551364?v=4" width="150px;" alt="Mazen Marwan"/>
-                    <br/>
-                    <sub><b>Mazen Marwan</b></sub>
-                </a>
-                <br/>
-                <sub>Cairo University</sub>
-            </td>
-            <td align="center">
-                <a href="https://github.com/mahmoud1yaser" target="_blank">
-                    <img src="https://avatars.githubusercontent.com/u/88372358?v=4" width="150px;" alt="Mahmoud Salman"/>
-                    <br/>
-                    <sub><b>Mahmoud Salman</b></sub>
-                </a>
-                <br/>
-                <sub>Cairo University, Western University</sub>
-            </td>
-        </tr>
-    </table>
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://medicine.yale.edu/profile/aya-khalaf/" target="_blank">
+          <img src="https://ysm-res.cloudinary.com/image/upload/c_crop,x_354,y_0,w_2396,h_2400/c_fill,f_auto,q_auto:eco,dpr_2,w_650/v1/yms/prod/4426ecb7-0a4d-4e6d-af35-c329e1ae6e54" width="190px;" alt="Aya Khalaf"/>
+          <br/><br/>
+          <sub><b>Dr. Aya Khalaf</b></sub>
+        </a>
+        <br/>
+        <sub>Yale University</sub>
+      </td>
+    </tr>
+  </table>
 </div>
-
+<br/>
 <div align="center">
-    <table>
-        <tr>
-            <td align="center">
-                <a href="https://www.linkedin.com/in/tamer-basha-b81812ab/" target="_blank">
-                    <img src="https://media.licdn.com/dms/image/v2/C5103AQEkkCY9JaaHTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517586051833?e=1770854400&v=beta&t=dZaKaGmqW-0RJwHGhjnH9RgE19UAbu9fow0PsU43mFU" width="150px;" alt="Tamer Basha"/>
-                    <br/>
-                    <sub><b>Tamer Basha</b></sub>
-                </a>
-                <br/>
-                <sub>Cairo University</sub>
-            </td>            
-        </tr>
-    </table>
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/YassienTawfikk" target="_blank">
+          <img src="https://avatars.githubusercontent.com/u/126521373?v=4" width="140px;" alt="Yassien Tawfik"/>
+          <br/>
+          <sub><b>Yassien Tawfik</b></sub>
+        </a>
+        <br/>
+        <sub>Cairo University</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/mohamedddyasserr" target="_blank">
+          <img src="https://avatars.githubusercontent.com/u/126451832?v=4" width="140px;" alt="Mohamed Yasser"/>
+          <br/>
+          <sub><b>Mohamed Yasser</b></sub>
+        </a>
+        <br/>
+        <sub>Cairo University</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/nancymahmoud1" target="_blank">
+          <img src="https://avatars.githubusercontent.com/u/125357872?v=4" width="140px;" alt="Nancy Mahmoud"/>
+          <br/>
+          <sub><b>Nancy Mahmoud</b></sub>
+        </a>
+        <br/>
+        <sub>Cairo University</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/madonna-mosaad" target="_blank">
+          <img src="https://avatars.githubusercontent.com/u/127048836?v=4" width="140px;" alt="Madonna Mosaad"/>
+          <br/>
+          <sub><b>Madonna Mosaad</b></sub>
+        </a>
+        <br/>
+        <sub>Cairo University</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Mazenmarwan023" target="_blank">
+          <img src="https://avatars.githubusercontent.com/u/127551364?v=4" width="140px;" alt="Mazen Marwan"/>
+          <br/>
+          <sub><b>Mazen Marwan</b></sub>
+        </a>
+        <br/>
+        <sub>Cairo University</sub>
+      </td>
+    </tr>
+  </table>
 </div>
-
+<br/>
 <div align="center">
-    <table>
-        <tr>
-            <td align="center">
-                <a href="https://medicine.yale.edu/profile/aya-khalaf/" target="_blank">
-                    <img src="https://ysm-res.cloudinary.com/image/upload/c_crop,x_354,y_0,w_2396,h_2400/c_fill,f_auto,q_auto:eco,dpr_2,w_650/v1/yms/prod/4426ecb7-0a4d-4e6d-af35-c329e1ae6e54" width="150px;" alt="Aya Khalaf"/>
-                    <br/>
-                    <sub><b>Aya Khalaf</b></sub>
-                </a>
-                <br/>
-                <sub>Yale University</sub>
-            </td>
-        </tr>
-    </table>
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/mahmoud1yaser" target="_blank">
+          <img src="https://avatars.githubusercontent.com/u/88372358?v=4" width="165px;" alt="Mahmoud Salman"/>
+          <br/>
+          <sub><b>Mahmoud Salman</b></sub>
+        </a>
+        <br/>
+        <sub>Western University</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+<br/>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://www.linkedin.com/in/tamer-basha-b81812ab/" target="_blank">
+          <img src="https://media.licdn.com/dms/image/v2/C5103AQEkkCY9JaaHTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517586051833?e=1770854400&v=beta&t=dZaKaGmqW-0RJwHGhjnH9RgE19UAbu9fow0PsU43mFU" width="135px;" alt="Tamer Basha"/>
+          <br/>
+          <sub><b>Tamer Basha</b></sub>
+        </a>
+        <br/>
+        <sub>Cairo University</sub>
+      </td>
+    </tr>
+  </table>
 </div>
