@@ -23,20 +23,57 @@ Epilepsy is one of the most common neurological disorders worldwide. Focal Corti
 
 ## Methodology
 
-### Pipeline Overview
+### 1. Addressing Class Imbalance
+The Bonn FCD Type II dataset exhibits significant imbalance in radiological phenotypes, with subtle features being underrepresented.
 
+<p align="center">
+  <img src="figures/Radiological_Abnormality_Distribution.png" alt="Radiological Abnormality Distribution" width="80%">
+  <br>
+  <em>Figure: Distribution of radiological abnormalities in the dataset. Note the scarcity of "Transmantle sign" and "Gray-White Matter Blurring".</em>
+</p>
 
+### 2. Radiological Feature-Based Oversampling
+To address this, we implemented a custom `nnUNetDataLoader` that increases the sampling probability for subjects exhibiting these rare features by a factor of 3.
 
-- **Architecture**: nnU-Net (3d_fullres)
-- **Data Splitting**: Adherence to the standard 57/28 train/test split to ensure reproducibility.
-- **Preprocessing**: nnU-Net v2 automated preprocessing with resampling.
-- **Radiological Feature-Based Sampling**: 3x oversampling for subjects with rare radiological features (Transmantle Sign, Gray-White Matter Blurring) to address class imbalance.
-- **Extensive Augmentation**: Enhanced augmentation parameters to improve generalization:
-    - **Rotation**: ±60°
-    - **Scaling**: [0.70, 1.50]
-    - **Brightness/Contrast**: [0.5, 1.5]
-    - **Gaussian Noise**: $\sigma=0.2$
-    - **Gamma**: [0.4, 2.0]
+**Oversampled Subjects:**
+> `sub-00001`, `sub-00003`, `sub-00014`, `sub-00015`, `sub-00016`, `sub-00018`, `sub-00024`, `sub-00027`, `sub-00033`, `sub-00038`, `sub-00040`, `sub-00044`, `sub-00050`, `sub-00053`, `sub-00055`, `sub-00058`, `sub-00060`, `sub-00063`, `sub-00065`, `sub-00073`, `sub-00077`, `sub-00078`, `sub-00080`, `sub-00081`, `sub-00083`, `sub-00087`, `sub-00089`, `sub-00097`, `sub-00098`, `sub-00101`, `sub-00105`, `sub-00109`, `sub-00112`, `sub-00115`, `sub-00116`, `sub-00122`, `sub-00123`, `sub-00126`, `sub-00130`, `sub-00132`, `sub-00133`, `sub-00138`, `sub-00146`
+
+**Implementation Snippet:**
+```python
+# From src/nnunet_extensions/custom_dataloader.py
+
+# Increase weight for rare subjects
+for idx, case_id in enumerate(case_ids):
+    subject_id = str(case_id).split('_')[0]
+    
+    if subject_id in self.rare_subjects:
+        # Increase probability (OVERSAMPLE_FACTOR = 3.0)
+        sampling_probs[idx] *= self.oversample_factor 
+
+# Normalize probabilities
+sampling_probs = sampling_probs / sampling_probs.sum()
+self.sampling_probabilities = sampling_probs
+```
+
+### 3. Extensive Data Augmentation
+We significantly increased the intensity and range of data augmentations in `nnUNetPlans.json` to improve generalization on this small dataset.
+
+**Configuration Snippet:**
+```python
+# Doubled spatial augmentations
+plans["data_augmentation"]["spatial"]["rotation"] = {
+    "x": 60 * (math.pi / 180), # ±60 degrees
+    "y": 60 * (math.pi / 180),
+    "z": 60 * (math.pi / 180)
+}
+plans["data_augmentation"]["spatial"]["scale_range"] = [0.70, 1.50]
+
+# Doubled intensity augmentations
+plans["data_augmentation"]["intensity"]["brightness"] = [0.5, 1.5]
+plans["data_augmentation"]["intensity"]["contrast"] = [0.5, 1.5]
+plans["data_augmentation"]["intensity"]["gaussian_noise_std"] = 0.2
+plans["data_augmentation"]["intensity"]["gamma_range"] = [0.4, 2.0]
+```
 
 ### Repository Structure
 
