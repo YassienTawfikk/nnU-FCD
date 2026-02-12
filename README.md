@@ -11,6 +11,14 @@
   <em>Figure: Overview of the proposed nnU-Net v2 pipeline.</em>
 </p>
 
+## Pretrained Models (Checkpoints)
+
+We provide pretrained nnU-Net v2 checkpoints for the experiment.
+
+- **Recommended (Proposed: BSL + OVS + Aug)** — best overall performance  
+  **Google Drive:** [Download checkpoint](https://drive.google.com/file/d/1KL6BwuhixWB1SuQzru_pkD2Jx4_8yjQY/view?usp=share_link)
+  **Notes:** trained on the standard Bonn FCD II split used in this repo.
+
 ## Abstract
 
 Epilepsy is one of the most common neurological disorders worldwide. Focal Cortical Dysplasia (FCD) is a major cause of drug-resistant epilepsy, often presenting as subtle lesions on MRI scans. While deep learning shows promise for automated FCD segmentation, existing methods achieved limited performance and used inconsistent dataset splits that prevent reproducible comparison. In this study, we propose an nnU-Net-based approach for automated FCD segmentation using the Bonn FCD Type II dataset. To improve model performance, our proposed approach employs oversampling of underrepresented FCD Type II radiological features and uses extensive augmentation during the training phase. We achieved an average validation Pseudo Dice of 0.56 compared to 0.45 in prior work, demonstrating significant performance improvement. This work provides the first complete evaluation on the dataset's standard train/test split, reporting both validation and test set performance to establish a reproducible benchmark for future method comparison. By providing both improved segmentation performance and a standardized evaluation framework, our work advances automated FCD segmentation toward better presurgical evaluation and improved outcomes for patients with drug-resistant epilepsy.
@@ -176,11 +184,11 @@ Our ablation study demonstrates the progressive improvement of our contributions
 If you use this code or dataset split in your research, please cite our paper:
 
 ```bibtex
-@article{Tawfik2024FCD,
+@article{Tawfik2026FCD,
   title={Evaluation of nnU-Net for FCD II Lesion Segmentation in FLAIR MRI},
   author={Tawfik, Yassien and Marwan, Mazen and Yasser, Mohamed and Mahmoud, Nancy and Mosaad, Madonna and Salman, Mahmoud and Basha, Tamer and Khalaf, Aya},
   journal={Department of Systems and Biomedical Engineering, Cairo University},
-  year={2024}
+  year={2026}
 }
 ```
 
